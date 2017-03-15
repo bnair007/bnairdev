@@ -1,7 +1,6 @@
 #!/bin/bash
 # Purpose:
 # Detect Stale File handle and remove it
-# Script created: July 29, 2015 by Birgit Ducarroz
 # Last modification: --
 #
 
