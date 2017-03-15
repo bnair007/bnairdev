@@ -1,5 +1,4 @@
 #!/bin/bash
-# Purpose:
 # Detect Stale File handle and remove it
 # Last modification: --
 #
