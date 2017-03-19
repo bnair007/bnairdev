@@ -1,5 +1,6 @@
 #!/bin/sh
 # Wedding guest meals
+# Bijith.nair@hitachiconsulting.com
 
 # These variables hold the counters.
 NUM_CHICKEN=0
