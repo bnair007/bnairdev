@@ -41,9 +41,9 @@ then
 echo "enter the command which you want to execute on multiple servers"
 read -p "Command --:" command
 #for host in $(cat $location); do ssh "$host" "$command" >"output.$host"; done
-#for i in `cat /tmp/Automated/SERVER_LIST.txt`; do ssh $i 'echo -e "echo "==Hostname==" \n$(hostname)" $command; echo "==================""'; done
+#for i in `cat /tmp/Automated/SERVER_LIST.txt`; do ssh $i 'echo -e "echo "==Hostname==" \n$(hostname) \n==Output== \n$command" '; done
 clear
-for i in `cat /tmp/Automated/SERVER_LIST.txt`; do ssh $i 'echo -e ""Hostname:" $(printf "\e[4m%s\e[0m\n" $(hostname))" "\n$(echo "==Output==")"'; $command; echo "======================"; done
+for i in `cat /tmp/Automated/SERVER_LIST.txt`; do ssh $i 'echo -e ""Hostname:" $(printf "\e[4m%s\e[0m\n" $(hostname))" "\n$(echo  \n==Output== \n$command)"';  echo "======================"; done
 elif [ $version = 5 ]
 then
 echo "Enter the ip of the server"
