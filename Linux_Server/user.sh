@@ -4,7 +4,7 @@
 NUM_CHICKEN=0
 NUM_STEAK=0
 ERR_MSG=""
-
+#Bijith
 # This will clear the screen before displaying the menu.
 clear
 
