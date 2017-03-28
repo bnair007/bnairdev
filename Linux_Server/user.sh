@@ -1,6 +1,5 @@
 #!/bin/sh
 # Wedding guest meals
-#
 # These variables hold the counters.
 NUM_CHICKEN=0
 NUM_STEAK=0
